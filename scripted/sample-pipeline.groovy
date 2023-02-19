@@ -1,4 +1,4 @@
-node('slave-node') {
+node('built-in') {
     stage('Sample Stage') {
         echo 'Hello World!'
     }
