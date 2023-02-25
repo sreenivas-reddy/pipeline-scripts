@@ -1,5 +1,13 @@
-node('built-in') {
-    stage('Sample Stage') {
-        echo 'Hello World!'
+node('master') {
+    stage('Initialization Stage') {
+        echo 'Initializing...'
+    }
+
+    stage('Build Stage') {
+        echo 'Building...'
+    }
+
+    stage('Deploy Stage') {
+        echo 'Deploying...'
     }
 }
