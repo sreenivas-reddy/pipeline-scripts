@@ -9,7 +9,7 @@ properties([
 node() {
     stage('Initialization Stage') {
         echo 'Initializing...'
-        print "Country: ${params.country}"
+        echo "Country: ${params.country}"
         print "Are You Married: ${params.married}"
         print "Gender: ${params.gender}"
     }
